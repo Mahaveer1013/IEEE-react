@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Mahaveer1013/IEEE-react/static/css/main.cd5e002b.css",
+    "main.js": "/Mahaveer1013/IEEE-react/static/js/main.13f20a26.js",
+    "index.html": "/Mahaveer1013/IEEE-react/index.html",
+    "main.cd5e002b.css.map": "/Mahaveer1013/IEEE-react/static/css/main.cd5e002b.css.map",
+    "main.13f20a26.js.map": "/Mahaveer1013/IEEE-react/static/js/main.13f20a26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd5e002b.css",
+    "static/js/main.13f20a26.js"
+  ]
+}
