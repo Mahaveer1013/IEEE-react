@@ -1,0 +1,99 @@
+.inauthenticated{
+    min-height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    justify-content: center;
+}
+.auth-header{
+    width: 400px;
+    height: 500px;
+    background-color: #282c33b3;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+.btns{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btns button{
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 2px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid var(--pink);
+    font-family: Roboto monospace,monospace;
+    transition: .2s;
+    color: aliceblue;
+}
+.btns .inactive:hover{
+    background-color: #212023e6;
+}
+.btns .active{
+    background-color: var(--lpink);
+}
+.input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 130px;
+    justify-content: space-evenly;
+}
+.input label{
+    margin-top: 20px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.input input{
+    width: calc(100% - 10px);
+    outline: none;
+    font-size: 18px;
+    padding: 8px 0 8px 10px;
+}
+.show-password{
+    position: absolute;
+    right: 15px;
+    bottom: 23%;
+    font-size: large;
+}
+form{
+    padding: 30px;
+}
+.submit{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit button{
+    padding: 8px 20px;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    margin-top: 15px;
+    font-weight: 500;
+    transition: .3s;
+    font-family: Roboto monospace,monospace;
+}
+.submit button:hover{
+    background-color: var(--lpink) ;
+}
+.submit button span{
+    color: #27272c;
+}
+
+
+
+@media all and (max-width:550px) {
+    .auth-header{
+    border: none;
+    }
+}
