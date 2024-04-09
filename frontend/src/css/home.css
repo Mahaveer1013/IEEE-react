@@ -1,5 +1,5 @@
 .home{
-    width: 100vw;
+    width: 100%;
     min-height: 80vh;
 }
 .front{
@@ -29,9 +29,6 @@
     color: #d7cfe2;
 
 }
-/* .event-name{
-    color: #35dcf2;
-} */
 .l-front span{
     font-size: 18px;
     font-weight: 400;
@@ -49,6 +46,70 @@
     color: var(--pink);
 }
 
+/* developers card */
+.developers{
+    margin-top: 65px;
+    width: 100%;
+}
+.devs-title{
+    margin-left: 100px;
+    color: aliceblue;
+    font-size: 28px;
+}
+.devs-title p span{
+    color:var(--pink);
+}
+.dev-cards{
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.dev-card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    border: 1px solid var(--pink);
+}
+.dev-image{
+    width: 250px;
+    height: 250px;
+    background-color: #d7cfe2;    
+    overflow: hidden;
+}
+.dev-image img{
+    width: 100%;
+}
+.dev-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+}
+.dev-name{
+    margin-top: 20px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.dev-links{
+    display: flex;
+    width: 80%;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+.dev-links a{
+    transition: .2s;
+    color: aliceblue;
+}
+.dev-links a:hover{
+    color: var(--pink);
+}
 
 @media all and (max-width:725px){
     .front{
@@ -72,5 +133,10 @@
     .logo{
         height: auto;
         font-size: 100px;
+    }
+
+    .devs-title{
+        font-size: 18px;
+        margin-left: 30px;
     }
 }

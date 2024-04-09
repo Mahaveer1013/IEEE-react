@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/particle.css'
 
 function Particle() {
     return (

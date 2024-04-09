@@ -8,6 +8,7 @@ export default function Login() {
         email: '',
         password : ''
     })
+    console.log(loginForm);
 
     function handleLoginForm(event) {
         const { name, value } = event.target;
