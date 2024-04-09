@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/Mahaveer1013/IEEE-react/static/css/main.cd5e002b.css",
-    "main.js": "/Mahaveer1013/IEEE-react/static/js/main.13f20a26.js",
-    "index.html": "/Mahaveer1013/IEEE-react/index.html",
-    "main.cd5e002b.css.map": "/Mahaveer1013/IEEE-react/static/css/main.cd5e002b.css.map",
-    "main.13f20a26.js.map": "/Mahaveer1013/IEEE-react/static/js/main.13f20a26.js.map"
+    "main.css": "/static/css/main.cd19bf7c.css",
+    "main.js": "/static/js/main.1b108987.js",
+    "static/media/MyPicture.jpg": "/static/media/MyPicture.06dbddfddaa08158787b.jpg",
+    "static/media/aashath.jpg": "/static/media/aashath.f5f86969ae4493844c19.jpg",
+    "static/media/nagappan.jpg": "/static/media/nagappan.af2abf1fe6bf9635f564.jpg",
+    "static/media/pradeep.jpg": "/static/media/pradeep.e4e864caebd5370dce25.jpg",
+    "index.html": "/index.html",
+    "main.cd19bf7c.css.map": "/static/css/main.cd19bf7c.css.map",
+    "main.1b108987.js.map": "/static/js/main.1b108987.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd5e002b.css",
-    "static/js/main.13f20a26.js"
+    "static/css/main.cd19bf7c.css",
+    "static/js/main.1b108987.js"
   ]
 }
